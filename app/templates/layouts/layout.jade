@@ -1,0 +1,47 @@
+doctype html
+
+html(lang='ru-RU')
+  head
+    meta(http-equiv = 'Content-Type', content = 'text/html; charset=utf-8')
+    meta(http-equiv='X-UA-Compatible', content="IE=edge")
+
+    title
+      block title
+
+    meta(name='description' content='')
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+    link(rel="icon" type="img/png" href="img/ficon.png" sizes="16x16")
+    link(rel='stylesheet' type='text/css' href='bower/normalize-css/normalize.css')
+    link(rel='stylesheet' type='text/css' href='bower/bootstrap/dist/css/bootstrap.min.css')
+    link(rel='stylesheet' type='text/css' href='css/font-awesome.css')
+    link(rel='stylesheet' type='text/css' href='css/magnific-popup.css')
+    link(rel='stylesheet' type='text/css' href='css/main.css')
+    link(rel='stylesheet' type='text/css' href='css/responsive.css')
+  body
+    <!--[if lt IE 8]>.
+    <p class="browserupgrade">Вы используете <strong>устаревший</strong> браузер. Пожалуйста <a href="http://browsehappy.com/">обновите свой браузер</a>, чтобы просмотреть мой сайт.</p>
+    <![endif]-->
+
+    .wrapper
+      .content-wrapper
+        include ../common/header.jade 
+        include ../common/nav.jade 
+        block content
+      include ../common/footer.jade
+
+
+    script(src='bower/jquery/dist/jquery.js')
+    script(src='bower/bootstrap/dist/js/bootstrap.min.js')
+    script(src='js/jquery.magnific-popup.min.js')
+    script(src='js/mixitup.min.js')
+    script(src='js/main.js')
+
+
+
+
+
+
+
+
+
+

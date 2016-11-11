@@ -1,0 +1,11 @@
+{
+  "name": "newsite",
+  "dependencies": {
+    "jquery": "1.11.0",
+    "normalize-css": "normalize.css#~3.0.3",
+    "bootstrap": "^3.3.6"
+  },
+  "devDependencies": {
+    "jquery": "1.11.0"
+  }
+}
