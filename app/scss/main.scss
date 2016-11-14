@@ -46,7 +46,7 @@
 
 .clearfix:after { clear: both; }
 
-* { 
+* {
 	-webkit-box-sizing: border-box;
 		 -moz-box-sizing: border-box;
 					box-sizing: border-box;
@@ -55,7 +55,7 @@
 /*----- variables  -----*/
 
 
-body, html { 
+body, html {
 	height: 100%;
 }
 .content-wrapper {
@@ -75,7 +75,7 @@ body, html {
 }
 
 
-// Header 
+// Header
 
 .header {
 	position: relative;
@@ -116,6 +116,7 @@ body, html {
 }
 .nav__wrap {
 	max-width: 650px;
+	height: 90px;
 	line-height: 90px;
 	margin: 0 auto;
 }
@@ -126,6 +127,7 @@ body, html {
 }
 .nav__list {
 	@include list-off;
+	height: 90px;
   text-align: justify;
   &:after {
     content: "";
@@ -325,7 +327,7 @@ body, html {
   h3 {
   	color: #fff;
   	font-family: 'signika-bold';
-  	font-size: 30px;
+  	font-size: 26px;
   	text-transform: uppercase;
   }
   p {
@@ -370,6 +372,10 @@ body, html {
   	text-align: justify;
   	font-family: 'signika-semibold';
   }
+	img {
+		width: 100%;
+		display: block;
+	}
 }
 .services {
   margin-bottom: 100px;
@@ -474,7 +480,7 @@ body, html {
   background-color: #140e1d;
   border: none;
   border-radius: 10px;
-  text-indent: 25px;
+	padding: 0 20px;
   color: #fff;
   font-size: 18px;
   margin-bottom: 30px;
@@ -485,8 +491,8 @@ body, html {
 }
 .input-mess {
   height: 170px;
-  padding: 20px;
   resize: none;
+	padding-top: 20px;
 }
 .input-submit {
   background-color: #140e1d;
@@ -567,11 +573,3 @@ body, html {
 	font-size: 14px;
 	font-family: 'signika-regular';
   }
-
-
-
-
-
-
-
-

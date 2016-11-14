@@ -1,6 +1,14 @@
 @media (max-width: 1360px) {
   .blog-item__foto {
-    height: 227px; } }
+    height: 227px; }
+  .blog-item__info {
+    padding: 20px; }
+  .mix:hover .portfolio__mix_cont {
+    padding-top: 10%; }
+  .portfolio__mix_cont {
+    padding: 5%; }
+    .portfolio__mix_cont h3 {
+      font-size: 24px; } }
 
 @media (max-width: 1024px) {
   .map-wrapper {
@@ -19,7 +27,20 @@
   .bottom-info__wrap {
     margin-left: 20px; }
   .bottom-info__list .bottom-info__item {
-    font-size: 16px; } }
+    font-size: 16px; }
+  .header-title .header-title__welcome {
+    font-size: 70px;
+    margin: 0 0 25px; }
+  .header-title {
+    top: 30%; }
+  .people-item__info {
+    padding: 10px 5px; }
+  .social-list .social-list__item {
+    margin-left: 10px; }
+  .service__item-title {
+    font-size: 34px; }
+  #portfolio-grid .mix {
+    width: 33.3%; } }
 
 @media (max-width: 768px) {
   .map-wrapper {
@@ -32,9 +53,57 @@
   .bottom-info {
     text-align: center; }
   .bottom-info__wrap {
-    margin-bottom: 20px; } }
+    margin-bottom: 20px; }
+  .content_left {
+    padding-right: 0; }
+  .content_right {
+    padding-left: 0; }
+  .about__content {
+    margin: 0 0 40px; }
+  .about, .blog {
+    padding: 30px 0; } }
+
+@media (max-width: 767px) {
+  .people-item {
+    margin-bottom: 30px; }
+  .services__item_right,
+  .services__item_left {
+    margin: 0; }
+  .services__item {
+    margin-bottom: 20px;
+    position: relative; }
+    .services__item:after {
+      content: "";
+      position: absolute;
+      width: 200px;
+      height: 2px;
+      bottom: 0;
+      left: 50%;
+      margin-left: -100px;
+      background-color: #00a388; }
+  .form-wrapper {
+    padding: 50px 0 60px 0; }
+  #portfolio-grid .mix {
+    width: 50%; } }
+
+@media (max-width: 639px) {
+  .header-title .header-title__welcome {
+    font-size: 33px;
+    margin: 0 0 15px; }
+  .header-title .header-title__name {
+    font-size: 24px;
+    margin: 0 0 10px; }
+  .header-title .header-title__info {
+    font-size: 13px; }
+  .header-title {
+    top: 20%; } }
 
 @media (max-width: 480px) {
   .input-col {
     float: none;
+    width: 100%;
+    margin-left: 0; }
+  #portfolio-grid .mix {
+    width: 100%; }
+  .row-480 .col-xs-6 {
     width: 100%; } }
