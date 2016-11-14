@@ -383,13 +383,16 @@ block content
       .row
         .col-lg-12.col-md-12.col-sm-12.col-xs-12
           .form-wrapper
-            form(action="")
+            form(action="")#contactForm
               .input-wrap.clearfix
                 .input-col
-                  input(type="text" name="firstname" placeholder="Name").input-text
-                  input(type="email" name="email" placeholder="E-mail").input-mail
+                  .box-field
+                    input(type="text" name="name" placeholder="Name").input-text
+                  .box-field
+                    input(type="email" name="email" placeholder="E-mail").input-mail
                 .input-col
-                  textarea(name="textarea" rows="5" placeholder="Message").input-mess
+                  .box-field
+                    textarea(name="textarea" rows="5" placeholder="Message").input-mess
               input(type="submit" value="Submit").input-submit
 
   section.bottom-nav

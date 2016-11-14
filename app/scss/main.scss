@@ -471,6 +471,9 @@ body, html {
   &:first-child {
     margin-left: 0;
   }
+	.box-field {
+		margin-bottom: 30px;
+	}
 }
 .input-text,
 .input-mail,
@@ -483,7 +486,6 @@ body, html {
 	padding: 0 20px;
   color: #fff;
   font-size: 18px;
-  margin-bottom: 30px;
 }
 .input-text,
 .input-mail {
