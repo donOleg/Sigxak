@@ -97,6 +97,17 @@ body, html {
   height: 90px;
   background-color: #00a388; }
 
+.nav-list__link {
+  display: none;
+  color: #fff;
+  font-size: 20px;
+  text-align: center; }
+
+.nav-list__link:focus, .nav-list__link:hover {
+  opacity: .6;
+  color: #f1f2f1;
+  text-decoration: none; }
+
 .nav__list {
   padding: 0;
   margin: 0;
@@ -485,6 +496,9 @@ body, html {
     display: block;
     width: 52px;
     height: 51px; }
+    .social__item .social__link.linkedin {
+      width: 51px;
+      height: 50px; }
   .social__item .gl_link {
     background-image: url("../img/google_icon.png"); }
   .social__item .fb_link {
@@ -496,12 +510,13 @@ body, html {
 
 .footer {
   position: absolute;
+  display: flex;
+  align-items: center;
   left: 0;
   bottom: 0;
   width: 100%;
   height: 90px;
   background-color: #140e1d;
-  line-height: 90px;
   text-align: center; }
 
 .footer__title {
