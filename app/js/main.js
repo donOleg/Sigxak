@@ -36,4 +36,6 @@ $(document).ready(function() {
     $('.nav__list').stop(true, true).slideToggle(1000);
   });
 
+  $("a.nav__link").mPageScroll2id();
+
 });
