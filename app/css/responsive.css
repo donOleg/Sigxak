@@ -130,7 +130,7 @@
   .nav__item {
     display: block;
     margin-bottom: 10px;
-    text-align: center; }
+    text-align: right; }
     .nav__item:nth-child(even) {
       display: none; }
   .bottom-nav .nav__list {

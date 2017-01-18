@@ -101,7 +101,10 @@ body, html {
   display: none;
   color: #fff;
   font-size: 20px;
-  text-align: center; }
+  text-align: right; }
+
+.nav-list__link .fa {
+  font-size: 24px; }
 
 .nav-list__link:focus, .nav-list__link:hover {
   opacity: .6;
@@ -184,7 +187,11 @@ body, html {
   margin-bottom: 100px; }
 
 .people-item {
-  max-width: 270px; }
+  max-width: 270px;
+  -webkit-transition: all .7s ease-out;
+  -moz-transition: all .7s ease-out;
+  -o-transition: all .7s ease-out;
+  transition: all .7s ease-out; }
   .people-item img {
     width: 100%; }
   .people-item:hover {
@@ -196,7 +203,11 @@ body, html {
       color: #fff; }
     .people-item:hover .people__text,
     .people-item:hover .social-list {
-      visibility: visible; }
+      visibility: visible;
+      -webkit-transition: all .7s ease-out;
+      -moz-transition: all .7s ease-out;
+      -o-transition: all .7s ease-out;
+      transition: all .7s ease-out; }
 
 .people-item__info {
   padding: 25px 20px; }

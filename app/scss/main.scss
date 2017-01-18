@@ -129,7 +129,10 @@ body, html {
   display: none;
   color: #fff;
   font-size: 20px;
-  text-align: center;
+  text-align: right;
+}
+.nav-list__link .fa {
+	font-size: 24px;
 }
 .nav-list__link:focus, .nav-list__link:hover {
   opacity: .6;
@@ -219,6 +222,10 @@ body, html {
 }
 .people-item {
 	max-width: 270px;
+	-webkit-transition: all .7s ease-out;
+     -moz-transition: all .7s ease-out;
+       -o-transition: all .7s ease-out;
+          transition: all .7s ease-out;
   img {
     width: 100%;
   }
@@ -233,6 +240,10 @@ body, html {
 		.people__text,
 		.social-list {
 			visibility: visible;
+			-webkit-transition: all .7s ease-out;
+		     -moz-transition: all .7s ease-out;
+		       -o-transition: all .7s ease-out;
+		          transition: all .7s ease-out;
 		}
 	}
 }
